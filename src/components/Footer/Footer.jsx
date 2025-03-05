@@ -143,7 +143,7 @@ function Footer() {
         <a href="https://x.com/mohitngi" target="_blank" rel="noopener noreferrer">
           <Twitter className="w-6 h-6" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/mohitngi/" target="_blank" rel="noopener noreferrer">
           <Linkedin className="w-6 h-6" />
         </a>
       </div>
