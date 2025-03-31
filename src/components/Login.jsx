@@ -68,8 +68,8 @@ function Login() {
         />
         <Button
         type="submit"
-        className="w-full hover:bg-blue-500"
-        >Sign in</Button>
+        className="w-full hover:bg-blue-600 cursor-pointer"
+        >Login</Button>
        </div>
      </form>
     </div>

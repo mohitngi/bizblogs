@@ -40,7 +40,7 @@ function Signup() {
                         to="/login"
                         className="font-medium text-primary transition-all duration-200 hover:underline"
                     >
-                        Sign In
+                        Login
                     </Link>
                 </p>
                 <br />
@@ -72,7 +72,7 @@ function Signup() {
                             />
                             <Button
                             type="submit"
-                            className="w-full hover:bg-blue-500"
+                            className="w-full hover:bg-blue-600 cursor-pointer"
                             >Create Account</Button> 
                     </div>
                 </form>
