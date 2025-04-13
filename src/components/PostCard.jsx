@@ -10,7 +10,7 @@ function PostCard({ $id, title, featuredImage }) {
             <div className='w-full bg-gray-100 rounded-xl p-4'>
                 <div className='w-full justify-center mb-4'>
                     {imagePreview ? (
-                        <img src={imagePreview} alt={title} className='rounded-xl' />
+                        <img src={imagePreview} alt={title} className='rounded-xl w-full h-48 object-cover' />
                     ) : (
                         <div className='h-48 bg-gray-300 rounded-xl flex items-center justify-center'>
                             <span>No Image Available</span>
