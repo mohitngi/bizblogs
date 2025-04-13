@@ -126,11 +126,17 @@ export class Service{
 
     getFilePreview(fileId){
         try {
-            if (!fileId) return null;
-            return this.bucket.getFileView(
+            if (!fileId) {
+                console.log("No fileId provided to getFilePreview");
+                return null;
+            }
+            console.log("Getting file preview for fileId:", fileId);
+            const preview = this.bucket.getFilePreview(
                 conf.appwriteBucketId,
                 fileId
-            ).href;
+            );
+            console.log("Generated preview URL:", preview);
+            return preview;
         } catch (error) {
             console.log("Appwrite service :: getFilePreview :: error", error);
             return null;
