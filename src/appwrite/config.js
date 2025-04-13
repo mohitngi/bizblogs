@@ -131,7 +131,7 @@ export class Service{
                 return null;
             }
             console.log("Getting file preview for fileId:", fileId);
-            const preview = this.bucket.getFilePreview(
+            const preview = this.bucket.getFileView(
                 conf.appwriteBucketId,
                 fileId
             );
